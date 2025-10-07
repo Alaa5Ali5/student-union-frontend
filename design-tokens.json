@@ -1,0 +1,384 @@
+{
+  "name": "Student Union Design System",
+  "version": "1.0.0",
+  "description": "Design tokens for the Student Union Media Team Application Form",
+  "tokens": {
+    "colors": {
+      "primary": {
+        "50": {
+          "value": "#f0f9f4",
+          "description": "Primary color 50 - Very light background"
+        },
+        "100": {
+          "value": "#dcf2e3",
+          "description": "Primary color 100 - Light background"
+        },
+        "200": {
+          "value": "#bce5cd",
+          "description": "Primary color 200 - Lighter accent"
+        },
+        "300": {
+          "value": "#8dd1ad",
+          "description": "Primary color 300 - Light accent"
+        },
+        "400": {
+          "value": "#56b585",
+          "description": "Primary color 400 - Medium light"
+        },
+        "500": {
+          "value": "#2d9a63",
+          "description": "Primary color 500 - Main brand color"
+        },
+        "600": {
+          "value": "#217c4f",
+          "description": "Primary color 600 - Darker hover state"
+        },
+        "700": {
+          "value": "#1d6240",
+          "description": "Primary color 700 - Dark active state"
+        },
+        "800": {
+          "value": "#1a4e34",
+          "description": "Primary color 800 - Very dark"
+        },
+        "900": {
+          "value": "#15402b",
+          "description": "Primary color 900 - Darkest"
+        },
+        "950": {
+          "value": "#0a2316",
+          "description": "Primary color 950 - Ultra dark"
+        }
+      },
+      "neutral": {
+        "50": {
+          "value": "#fafafa",
+          "description": "Neutral 50 - Page background"
+        },
+        "100": {
+          "value": "#f5f5f5",
+          "description": "Neutral 100 - Card backgrounds"
+        },
+        "200": {
+          "value": "#e5e5e5",
+          "description": "Neutral 200 - Borders"
+        },
+        "300": {
+          "value": "#d4d4d4",
+          "description": "Neutral 300 - Light borders"
+        },
+        "400": {
+          "value": "#a3a3a3",
+          "description": "Neutral 400 - Placeholder text"
+        },
+        "500": {
+          "value": "#737373",
+          "description": "Neutral 500 - Secondary text"
+        },
+        "600": {
+          "value": "#525252",
+          "description": "Neutral 600 - Medium text"
+        },
+        "700": {
+          "value": "#404040",
+          "description": "Neutral 700 - Primary text"
+        },
+        "800": {
+          "value": "#262626",
+          "description": "Neutral 800 - Dark text"
+        },
+        "900": {
+          "value": "#171717",
+          "description": "Neutral 900 - Darkest text"
+        },
+        "950": {
+          "value": "#0a0a0a",
+          "description": "Neutral 950 - Ultra dark"
+        }
+      },
+      "semantic": {
+        "success": {
+          "50": "#f0fdf4",
+          "500": "#22c55e",
+          "600": "#16a34a",
+          "700": "#15803d"
+        },
+        "error": {
+          "50": "#fef2f2",
+          "500": "#ef4444",
+          "600": "#dc2626",
+          "700": "#b91c1c"
+        },
+        "warning": {
+          "50": "#fffbeb",
+          "500": "#f59e0b",
+          "600": "#d97706",
+          "700": "#b45309"
+        },
+        "info": {
+          "50": "#eff6ff",
+          "500": "#3b82f6",
+          "600": "#2563eb",
+          "700": "#1d4ed8"
+        }
+      }
+    },
+    "typography": {
+      "fontFamily": {
+        "sans": {
+          "value": "Tajawal, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+          "description": "Primary font family for Arabic text"
+        },
+        "display": {
+          "value": "Tajawal, system-ui, sans-serif",
+          "description": "Display font family for headings"
+        }
+      },
+      "fontSize": {
+        "xs": {
+          "value": "0.75rem",
+          "description": "Extra small text - helper text"
+        },
+        "sm": {
+          "value": "0.875rem",
+          "description": "Small text - labels"
+        },
+        "base": {
+          "value": "1rem",
+          "description": "Base text - body content"
+        },
+        "lg": {
+          "value": "1.125rem",
+          "description": "Large text - small headings"
+        },
+        "xl": {
+          "value": "1.25rem",
+          "description": "Extra large text - medium headings"
+        },
+        "2xl": {
+          "value": "1.5rem",
+          "description": "2X large text - large headings"
+        },
+        "3xl": {
+          "value": "1.875rem",
+          "description": "3X large text - main headings"
+        },
+        "4xl": {
+          "value": "2.25rem",
+          "description": "4X large text - page titles"
+        },
+        "5xl": {
+          "value": "3rem",
+          "description": "5X large text - hero titles"
+        }
+      },
+      "fontWeight": {
+        "light": "300",
+        "normal": "400",
+        "medium": "500",
+        "semibold": "600",
+        "bold": "700",
+        "extrabold": "800",
+        "black": "900"
+      },
+      "lineHeight": {
+        "tight": "1.25",
+        "normal": "1.5",
+        "relaxed": "1.625",
+        "loose": "2"
+      }
+    },
+    "spacing": {
+      "xs": {
+        "value": "0.5rem",
+        "description": "Extra small spacing - 8px"
+      },
+      "sm": {
+        "value": "0.75rem",
+        "description": "Small spacing - 12px"
+      },
+      "md": {
+        "value": "1rem",
+        "description": "Medium spacing - 16px"
+      },
+      "lg": {
+        "value": "1.5rem",
+        "description": "Large spacing - 24px"
+      },
+      "xl": {
+        "value": "2rem",
+        "description": "Extra large spacing - 32px"
+      },
+      "2xl": {
+        "value": "3rem",
+        "description": "2X large spacing - 48px"
+      },
+      "18": {
+        "value": "4.5rem",
+        "description": "Custom spacing - 72px"
+      },
+      "88": {
+        "value": "22rem",
+        "description": "Custom spacing - 352px"
+      }
+    },
+    "borderRadius": {
+      "none": "0",
+      "sm": {
+        "value": "0.375rem",
+        "description": "Small border radius - 6px"
+      },
+      "md": {
+        "value": "0.5rem",
+        "description": "Medium border radius - 8px"
+      },
+      "lg": {
+        "value": "0.75rem",
+        "description": "Large border radius - 12px"
+      },
+      "xl": {
+        "value": "1rem",
+        "description": "Extra large border radius - 16px"
+      },
+      "2xl": {
+        "value": "1.5rem",
+        "description": "2X large border radius - 24px"
+      },
+      "3xl": {
+        "value": "2rem",
+        "description": "3X large border radius - 32px"
+      },
+      "full": "9999px"
+    },
+    "shadows": {
+      "soft": {
+        "value": "0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04)",
+        "description": "Soft shadow for subtle elevation"
+      },
+      "medium": {
+        "value": "0 4px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
+        "description": "Medium shadow for moderate elevation"
+      },
+      "strong": {
+        "value": "0 10px 40px -10px rgba(0, 0, 0, 0.15), 0 2px 10px -2px rgba(0, 0, 0, 0.05)",
+        "description": "Strong shadow for high elevation"
+      }
+    },
+    "transitions": {
+      "fast": {
+        "value": "150ms ease-in-out",
+        "description": "Fast transition for micro-interactions"
+      },
+      "normal": {
+        "value": "250ms ease-in-out",
+        "description": "Normal transition for standard interactions"
+      },
+      "slow": {
+        "value": "350ms ease-in-out",
+        "description": "Slow transition for complex animations"
+      }
+    },
+    "breakpoints": {
+      "sm": {
+        "value": "640px",
+        "description": "Small screens and up"
+      },
+      "md": {
+        "value": "768px",
+        "description": "Medium screens and up"
+      },
+      "lg": {
+        "value": "1024px",
+        "description": "Large screens and up"
+      },
+      "xl": {
+        "value": "1280px",
+        "description": "Extra large screens and up"
+      },
+      "2xl": {
+        "value": "1536px",
+        "description": "2X large screens and up"
+      }
+    },
+    "zIndex": {
+      "hide": "-1",
+      "auto": "auto",
+      "base": "0",
+      "docked": "10",
+      "dropdown": "1000",
+      "sticky": "1100",
+      "banner": "1200",
+      "overlay": "1300",
+      "modal": "1400",
+      "popover": "1500",
+      "skipLink": "1600",
+      "toast": "1700",
+      "tooltip": "1800"
+    },
+    "component": {
+      "button": {
+        "height": {
+          "sm": "36px",
+          "md": "44px",
+          "lg": "52px"
+        },
+        "padding": {
+          "sm": "0.5rem 0.75rem",
+          "md": "0.5rem 1rem",
+          "lg": "0.75rem 1.5rem"
+        }
+      },
+      "input": {
+        "height": "44px",
+        "padding": "0.75rem 1rem",
+        "borderWidth": "2px"
+      },
+      "card": {
+        "padding": "1.5rem",
+        "borderRadius": "0.75rem"
+      },
+      "modal": {
+        "backdrop": "rgba(0, 0, 0, 0.5)",
+        "maxWidth": {
+          "sm": "28rem",
+          "md": "32rem",
+          "lg": "42rem",
+          "xl": "56rem"
+        }
+      }
+    }
+  },
+  "accessibility": {
+    "colorContrast": {
+      "normal": {
+        "min": "4.5:1",
+        "description": "Minimum contrast ratio for normal text"
+      },
+      "large": {
+        "min": "3:1",
+        "description": "Minimum contrast ratio for large text (18pt+)"
+      }
+    },
+    "touchTargets": {
+      "minSize": "44px",
+      "description": "Minimum touch target size for WCAG compliance"
+    },
+    "focus": {
+      "ringWidth": "2px",
+      "ringOffset": "2px",
+      "description": "Focus ring styling for keyboard navigation"
+    }
+  },
+  "rtl": {
+    "direction": "rtl",
+    "textAlign": "right",
+    "marginStart": "margin-right",
+    "marginEnd": "margin-left",
+    "paddingStart": "padding-right",
+    "paddingEnd": "padding-left",
+    "borderStart": "border-right",
+    "borderEnd": "border-left",
+    "borderStartWidth": "border-right-width",
+    "borderEndWidth": "border-left-width"
+  }
+}
