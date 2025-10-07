@@ -102,7 +102,7 @@ body {
   line-height: 1.6;
   color: white;
   background-color: #005C29; /* اللون الأخضر الداكن كخلفية احتياطية */
-  background-image: url('/pattern-bg.png');
+  background-image: url('/background.jpg');
   background-repeat: no-repeat;
   background-size: cover; /* تغطي الصفحة بالكامل */
   background-position: center center;
@@ -121,7 +121,7 @@ body {
 .dark body {
   color: white;
   background-color: #005C29;
-  background-image: url('/pattern-bg.png');
+  background-image: url('/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
