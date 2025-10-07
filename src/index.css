@@ -106,8 +106,15 @@ body {
   background-repeat: no-repeat;
   background-size: cover; /* تغطي الصفحة بالكامل */
   background-position: center center;
-  background-attachment: fixed; /* خلفية ثابتة لا تتحرك مع التمرير */
-  background-clip: border-box;
+  background-attachment: scroll; /* تعمل بشكل أفضل على الموبايل */
+}
+
+/* تحسين الخلفية على الأجهزة المحمولة */
+@media (max-width: 768px) {
+  body {
+    background-size: cover;
+    background-position: center top;
+  }
 }
 
 /* Dark mode body styles */
@@ -116,10 +123,9 @@ body {
   background-color: #005C29;
   background-image: url('/pattern-bg.png');
   background-repeat: no-repeat;
-  background-size: cover; /* تغطي الصفحة بالكامل في الوضع المظلم */
+  background-size: cover;
   background-position: center center;
-  background-attachment: fixed; /* خلفية ثابتة في الوضع المظلم أيضاً */
-  background-clip: border-box;
+  background-attachment: scroll;
 }
 
 #root {

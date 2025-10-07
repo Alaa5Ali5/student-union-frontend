@@ -440,37 +440,6 @@ export const ApplicationForm: React.FC = () => {
               تم إرسال طلب انضمامك للفريق الإعلامي بنجاح. شكراً لك على اهتمامك!
             </p>
 
-            {/* رقم الطلب */}
-            {applicationId && (
-              <div 
-                style={{
-                  backgroundColor: '#f3f4f6',
-                  border: '1px solid #d1d5db',
-                  borderRadius: '8px',
-                  padding: '16px',
-                  marginBottom: '24px'
-                }}
-              >
-                <p style={{ fontSize: '14px', color: '#000000', marginBottom: '8px' }}>
-                  رقم الطلب المرجعي:
-                </p>
-                <p 
-                  style={{
-                    fontSize: '20px',
-                    fontFamily: 'monospace',
-                    fontWeight: 'bold',
-                    color: '#000000',
-                    backgroundColor: '#ffffff',
-                    padding: '8px 16px',
-                    borderRadius: '4px',
-                    border: '1px solid #d1d5db'
-                  }}
-                >
-                  {applicationId}
-                </p>
-              </div>
-            )}
-
             {/* معلومات إضافية */}
             <div 
               style={{
